@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="HomePage-Internal">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="author" content="" /><title></title>
+        <link rel="shortcut icon" href="favicon.ico" type="" />
+        <link href="../Stylesheets/2017DocT-WriterCustomStyles.css" rel="stylesheet" type="text/css" />
+        <link href="../Stylesheets/abc-HomePage.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="onlineInternalNote">
+            <MadCap:snippetText src="../Snippets/2017DocT-HeaderInternalNote-Online.flsnp" />
+        </div>
+        <div id="contentBody" class="off-canvas-main">
+            <MadCap:bodyProxy />
+            <div class="onlineInternalNote">
+                <MadCap:snippetText src="../Snippets/2017DocT-FooterInternalNote-Online.flsnp" />
+            </div>
+            <p>
+                <MadCap:snippetBlock src="../Snippets/2017DocT-FooterCopyright-HTML5.flsnp" />
+            </p>
+        </div>
+        <!-- The script below run the Internal masthead menu -->
+        <script src="/abc/js/masthead-menu/topmenu-internal.js">
+        </script>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-39436504-1">
+		</script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-39436504-1');
+		</script>
+    </body>
+</html>

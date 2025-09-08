@@ -1,0 +1,1196 @@
+/*<meta />*/
+
+/*The Roboto font faces are open source from Google Fonts.*/
+
+/*@font-face*/
+/*{*/
+/*    font-family: Roboto-Light;*/
+/*    src: url(Roboto-Light.ttf);*/
+/*}*/
+
+/*@font-face*/
+/*{*/
+/*    font-family: Roboto-Thin;*/
+/*    src: url(Roboto-Thin.ttf);*/
+/*}*/
+
+.landingImage
+{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Home Page General Styles*/
+
+#searchbar
+{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.search-button
+{
+    background-color: #f27a00;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px #333;
+    cursor: pointer;
+    color: #FFFFFF;
+    margin: 12px;
+    padding: 8px;
+    text-shadow: 1px 1px 0px #ccc;
+}
+
+div.bing-container
+{
+    width: 98%;
+}
+
+div.bing-searchbox
+{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.off-canvas-content
+{
+    background-color: #252229;
+}
+
+input[type=text]
+{
+    width: 65%;
+    padding: 12px 15px;
+    box-sizing: border-box;
+    font-size: 0.875em;
+    border: 2px solid #ceced9;
+}
+
+input[type=submit]
+{
+    background-color: #F26122;
+    border: 1px solid #F26122;
+    color: #FFFFFF;
+    padding: 12px 15px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 0.875em;
+}
+
+input[type=submit]:hover
+{
+    background-color: #F27A00;
+}
+
+.abcroundiconsdiv
+{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#abc-content-section
+{
+    margin: auto;
+    width: 75%;
+}
+
+#abcsearchdiv-landingpage
+{
+
+}
+
+.floatinglogo-landingpage
+{
+    position: absolute;
+    top: 35%;
+    right: 22%;
+}
+
+#abcinput-landingpage
+{
+    font-size: 0.875em;
+    height: 2em;
+    margin-top: 0;
+    margin-left: 5px;
+    padding-top: 0.375em;
+    padding-bottom: 0.375em;
+    padding-left: 1em;
+    padding-right: 0.375em;
+}
+
+#abcsearchbutton-landingpage
+{
+    width: 5em;
+    margin-left: 5px;
+    height: 2em;
+    border: 0.0625em solid #F26122;
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    border-radius: 1em;
+    font-size: 0.875em;
+    color: #FFFFFF;
+    background-color: #29a9e1;
+}
+
+strong.orange
+{
+    color: #f27a00;
+}
+
+strong.red
+{
+    color: #ec008c;
+}
+
+.abcobcballs
+{
+    position: absolute;
+    left: 42%;
+    top: 55%;
+}
+
+.abcorange
+{
+    color: #F26122;
+    font-weight: normal;
+}
+
+.abcblue
+{
+    color: #0073ba;
+    font-weight: normal;
+}
+
+.abcgray
+{
+    color: #ceced9;
+    font-weight: 500;
+    margin: 0;
+}
+
+#abcconfidentialdiv
+{
+    position: absolute;
+    color: #adacb5;
+    text-align: center;
+    letter-spacing: 0.1em;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    font-size: 0.75em;
+    z-index: 2000;
+}
+
+a.BlackText
+{
+    color: #000000;
+    text-decoration: none;
+}
+
+h3.SubCenter
+{
+    text-align: center;
+}
+
+img.Hyperlinked
+{
+    border-style: none;
+}
+
+p
+{
+    color: #252229;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    font-size: 1em;
+}
+
+.CopyrightHome
+{
+    font-size: 0.88em;
+    text-align: left;
+    color: #ffffff;
+    line-height: 1em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+
+#homepageCopyright
+{
+    font-size: 0.75em;
+}
+
+.centered-text
+{
+    text-align: center;
+}
+
+div.center
+{
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    float: none !important;
+    text-align: center;
+}
+
+#center
+{
+    background-color: #CECED9;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+div.content123
+{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e0e0df;
+    height: auto;
+}
+
+.whiteheader
+{
+    font-family: Microsoft Sans Serif, sans-serif;
+    color: #ffffff;
+    font-size: 3.5em;
+    font-weight: 500;
+}
+
+.blackheader
+{
+    font-family: Roboto-Thin, sans-serif;
+    color: #252229;
+    font-size: 3.5em;
+    font-weight: 500;
+}
+
+#needAnswers
+{
+    position: absolute;
+    top: 15%;
+    left: 31%;
+}
+
+.main-section > .row.outer-row
+{
+    max-width: 100%;
+    padding: 0;
+}
+
+/* Remove the main search bar from the home page only */
+
+.row.nav-search
+{
+    display: none;
+}
+
+/* Home Page Button Styles */
+
+.button
+{
+    cursor: pointer;
+    background-color: transparent;
+    width: 200px;
+    height: 35px;
+    font-weight: bold;
+    -webkit-transition: all 200ms;
+    -moz-transition: all 200ms;
+    -ms-transition: all 200ms;
+    -o-transition: all 200ms;
+    transition: all 200ms;
+}
+
+.button.black
+{
+    border: solid 2px black;
+    color: black;
+}
+
+.button.black:hover
+{
+    background-color: #ceced9;
+}
+
+.button a
+{
+    display: block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+
+/* Responsive Header Styles*/
+
+#contentBody > .responsive-header
+{
+    background-color: transparent;
+}
+
+/* Content Section */
+
+#content-section
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #e0e0df;
+    margin-top: -50px;
+}
+
+#content-section h3
+{
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #0073ba;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+}
+
+.right-section div.button-group,
+.left-section div.button-group
+{
+    margin-top: 20px;
+}
+
+#content-section .left-section
+{
+    padding-right: 20px;
+}
+
+#content-section .right-section
+{
+    padding-left: 5px;
+}
+
+.left-section .left-content,
+.right-section .right-content
+{
+    height: auto;
+    width: 100%;
+}
+
+.right-content
+{
+    font-size: 1em;
+}
+
+#content-section .right-section .table-images:first-of-type
+{
+    margin-bottom: 20px;
+}
+
+#content-section.mc-blurb p
+{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+#content-section.mc-blurb .mc-bullets
+{
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+#content-section.mc-blurb .mc-bullets > li
+{
+    color: #75707D;
+    font-size: 14px;
+    margin-top: 8px;
+    line-height: 1.6em;
+}
+
+/* Home Page Topic Hero section*/
+
+div.topichero-internal
+{
+    background-image: url('/Users/saikumarguntoju/Desktop/Git Checkout/Ignite-AI-POC/helper-ai/public/hero-image2.png');
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    height: auto;
+    padding-bottom: 150px;
+    background-size: cover;
+}
+
+div.topichero-external
+{
+    background-image: url('/Users/saikumarguntoju/Desktop/Git Checkout/Ignite-AI-POC/helper-ai/public/hero-image2.png');
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    height: auto;
+    padding-bottom: 150px;
+    background-size: cover;
+}
+
+/* This changes the font on the homepage title */
+
+div.topichero h1
+{
+    font-size: 3em;
+    margin-top: 1.11em;
+    margin-bottom: 0.5em;
+    line-height: 100%;
+}
+
+div.topichero h3
+{
+    font-size: 2em;
+    margin-bottom: 80px;
+    line-height: 100%;
+}
+
+/* Home Page Footer */
+
+.footer
+{
+    font-size: 0.88em;
+    background-color: #252229;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: left;
+    color: #fff;
+}
+
+.footer a
+{
+    text-decoration: none;
+    color: #ceced9;
+}
+
+.footer > div.row
+{
+    line-height: 30px;
+    padding: 0;
+}
+
+.footer-logo
+{
+    max-width: 150px;
+    margin-left: 20%;
+    margin-right: 25px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    float: left;
+}
+
+.footer-links
+{
+    text-align: left;
+}
+
+.footer-links a
+{
+    padding-right: 15px;
+}
+
+.footer-icons
+{
+    text-align: right;
+}
+
+.footer-icons > a:first-of-type
+{
+    padding-right: 10px;
+}
+
+/* Mad Cap proxy/editor assigned styles */
+
+MadCap|topicToolbarProxy
+{
+    float: none;
+}
+
+p.TOC2
+{
+    margin-left: 20px;
+    display: none;
+}
+
+MadCap|menuProxy.menu1
+{
+    mc-toc-depth: 1;
+    mc-context-sensitive: True;
+}
+
+MadCap|menuProxy.menu2
+{
+    mc-toc-depth: 1;
+    mc-context-sensitive: True;
+}
+
+MadCap|popupHead
+{
+    font-size: 0.875em;
+    font-weight: bold;
+}
+
+html.HomePage-Internal
+{
+    mc-master-page: url('/public/InternalHomePage.flmsp');
+    mc-community-features: disabled;
+}
+
+html.HomePage-External
+{
+    mc-master-page: url('/public/ExternalHomePage.flmsp');
+    mc-community-features: disabled;
+}
+
+div.abcGrid2CellsHomePage	/*This is a custom responsive layout row style (div class) in your stylesheet.
+To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and
+(3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+    mc-grid-row: true;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.abcGrid2CellsHomePage::before
+{
+    content: ' ';
+    display: table;
+}
+
+div.abcGrid2CellsHomePage::after
+{
+    content: ' ';
+    display: table;
+    clear: both;
+}
+
+div.abcGrid2CellsHomePage > div
+{
+    float: left;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+div.abcGrid2CellsHomePage > div:nth-child(1)
+{
+    width: 20%;
+    margin-left: 16.667%;
+    margin-right: 2%;
+}
+
+div.abcGrid2CellsHomePage > div:nth-child(2)
+{
+    width: 20%;
+}
+
+div.abcGrid2CellsHomePage > div:nth-child(3)
+{
+    width: 25%;
+    margin-left: 2%;
+}
+
+div.abcRow444	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+    mc-grid-row: true;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+div.abcRow444::before
+{
+    content: ' ';
+    display: table;
+}
+
+div.abcRow444::after
+{
+    content: ' ';
+    display: table;
+    clear: both;
+}
+
+div.abcRow444 > div
+{
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+div.abcRow444 > div:nth-child(1)
+{
+    width: 33.333%;
+    margin-left: 0%;
+}
+
+div.abcRow444 > div:nth-child(2)
+{
+    width: 33.333%;
+    margin-left: 0%;
+}
+
+div.abcRow444 > div:nth-child(3)
+{
+    width: 33.333%;
+    margin-left: 0%;
+}
+
+div.abc1Grid3Cells	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+    mc-grid-row: true;
+    margin-left: 16%;
+    margin-right: 16%;
+    padding-bottom: 4%;
+    background-color: #e0e0df;
+}
+
+div.abc1Grid3Cells::before
+{
+    content: ' ';
+    display: table;
+}
+
+div.abc1Grid3Cells::after
+{
+    content: ' ';
+    display: table;
+    clear: both;
+}
+
+div.abc1Grid3Cells > div
+{
+    float: left;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 2%;
+}
+
+div.abc1Grid3Cells > div:nth-child(1)
+{
+    width: 33.33333%;
+    margin-left: 0%;
+}
+
+div.abc1Grid3Cells > div:nth-child(2)
+{
+    width: 33.33333%;
+    margin-left: 0%;
+}
+
+div.abc1Grid3Cells > div:nth-child(3)
+{
+    width: 33.33333%;
+    margin-left: 0%;
+}
+
+h1
+{
+    font-family: Roboto-Light, sans-serif;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+div.two-columns	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+    mc-grid-row: true;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.two-columns::before
+{
+    content: ' ';
+    display: table;
+}
+
+div.two-columns::after
+{
+    content: ' ';
+    display: table;
+    clear: both;
+}
+
+div.two-columns > div
+{
+    float: left;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div.two-columns > div:nth-child(1)
+{
+    width: 50%;
+    margin-left: 0%;
+    text-align: left;
+    padding-top: 1%;
+    padding-right: 7%;
+    padding-bottom: 2%;
+    padding-left: 7%;
+}
+
+div.two-columns > div:nth-child(2)
+{
+    width: 50%;
+    margin-left: 0%;
+    padding-top: 3%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    text-align: center;
+}
+
+/* Medium Layout */
+
+@media only screen and (max-width: 64.063em)
+{
+    #content-section .right-section,
+    #content-section .left-section
+    {
+        padding: 0;
+    }
+
+    .left-section div.button-group > div
+    {
+        margin-bottom: 20px;
+    }
+
+    .footer
+    {
+        padding-top: 3%;
+        padding-bottom: 0%;
+    }
+
+    .landingImage
+    {
+        max-width: 130%;
+        height: auto;
+    }
+
+    #needAnswers
+    {
+        position: absolute;
+        top: 7%;
+        left: 2%;
+    }
+
+    div.abc1Grid3Cells	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+    {
+        mc-grid-row: true;
+        margin-bottom: 5%;
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-bottom: 3%;
+        background-color: #CECED9;
+    }
+
+    div.abc1Grid3Cells::before
+    {
+        content: ' ';
+        display: table;
+    }
+
+    div.abc1Grid3Cells::after
+    {
+        content: ' ';
+        display: table;
+        clear: both;
+    }
+
+    div.abc1Grid3Cells > div
+    {
+        float: left;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    input[type=text]
+    {
+        width: 85%;
+        padding: 12px 15px;
+        box-sizing: border-box;
+        font-size: 0.875em;
+        border: 2px solid #ceced9;
+    }
+
+    input[type=submit]
+    {
+        background-color: #F26122;
+        border: 1px solid #F26122;
+        color: #FFFFFF;
+        padding: 12px 15px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-size: 0.875em;
+    }
+
+    input[type=submit]:hover
+    {
+        background-color: #F27A00;
+    }
+}
+
+/* Small Layout */
+
+@media screen and (max-width: 40em)
+{
+    div.topichero h1
+    {
+        font-size: 2em;
+    }
+
+    div.topichero h3
+    {
+        font-size: 1.2em;
+    }
+
+    #content-section
+    {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+
+    #content-section .right-section
+    {
+        padding-left: 0px;
+    }
+
+    .footer-links,
+    p.Copyright,
+    .footer-icons
+    {
+        text-align: center;
+    }
+
+    .blackheader
+    {
+        font-family: Roboto-Thin, sans-serif;
+        color: #252229;
+        font-size: 1.75em;
+        font-weight: 500;
+    }
+
+    .landingImage
+    {
+        max-width: 150%;
+        height: auto;
+    }
+
+    #needAnswers
+    {
+        position: absolute;
+        top: 9%;
+        left: 1%;
+    }
+
+    div.abc1Grid3Cells	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+    {
+        mc-grid-row: true;
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-bottom: 2%;
+        background-color: #CECED9;
+    }
+
+    div.abc1Grid3Cells::before
+    {
+        content: ' ';
+        display: table;
+    }
+
+    div.abc1Grid3Cells::after
+    {
+        content: ' ';
+        display: table;
+        clear: both;
+    }
+
+    div.abc1Grid3Cells > div
+    {
+        float: left;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
+
+div.abcroundiconsdiv
+{
+    margin-top: -50px;
+    text-align: center;
+}
+
+@media tablet
+{
+    div.abcGrid2CellsHomePage > div:nth-child(1)
+    {
+        width: 50%;
+        margin-left: 0%;
+    }
+
+    div.abcGrid2CellsHomePage > div:nth-child(2)
+    {
+        width: 50%;
+        margin-left: 0%;
+    }
+
+    div.abcGrid2CellsHomePage > div:nth-child(3)
+    {
+        width: 8.3333%;
+        margin-left: 0%;
+    }
+
+    div.abcRow444 > div:nth-child(1)
+    {
+        width: 33.33333%;
+        margin-left: 0%;
+    }
+
+    div.abcRow444 > div:nth-child(2)
+    {
+        width: 33.33333%;
+        margin-left: 0%;
+    }
+
+    div.abcRow444 > div:nth-child(3)
+    {
+        width: 33.33333%;
+        margin-left: 0%;
+    }
+
+    div.abc1Grid3Cells > div:nth-child(1)
+    {
+        width: 33.33333%;
+        margin-left: 0%;
+    }
+
+    div.abc1Grid3Cells > div:nth-child(2)
+    {
+        width: 33.33333%;
+        margin-left: 0%;
+    }
+
+    div.abc1Grid3Cells > div:nth-child(3)
+    {
+        width: 33.33333%;
+        margin-left: 0%;
+    }
+
+    div.two-columns > div:nth-child(1)
+    {
+        width: 50%;
+        margin-left: 0%;
+    }
+
+    div.two-columns > div:nth-child(2)
+    {
+        width: 50%;
+        margin-left: 0%;
+    }
+}
+
+@media mobile
+{
+    .floatinglogo-landingpage
+    {
+        position: absolute;
+        top: 32%;
+        right: 22%;
+    }
+
+    div.abcGrid2CellsHomePage > div:nth-child(1)
+    {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    div.abcGrid2CellsHomePage > div:nth-child(2)
+    {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    div.abcGrid2CellsHomePage > div:nth-child(3)
+    {
+        width: 8.3333%;
+        margin-left: 0%;
+    }
+
+    div.abcRow444 > div:nth-child(1)
+    {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    div.abcRow444 > div:nth-child(2)
+    {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    div.abcRow444 > div:nth-child(3)
+    {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    div.abc1Grid3Cells > div:nth-child(1)
+    {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    div.abc1Grid3Cells > div:nth-child(2)
+    {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    div.abc1Grid3Cells > div:nth-child(3)
+    {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    div.two-columns > div:nth-child(1)
+    {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    div.two-columns > div:nth-child(2)
+    {
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+
+
+/* End of chat CSS file */
+/* Container for the button and its hover label */
+.floating-chat-container {
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* The button itself */
+.floating-chat-btn {
+    border-radius: 50%;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Smooth transition for the move */
+}
+
+/* The label that appears on hover */
+.floating-chat-label {
+    visibility: hidden;
+    opacity: 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    white-space: nowrap;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* On hover, move the button up and show the label */
+.floating-chat-container:hover .floating-chat-btn {
+    transform: translateY(-10px);
+}
+
+.floating-chat-container:hover .floating-chat-label {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Chat window */
+.chat-window {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    height: 500px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+/* Chat header */
+.chat-header {
+    background: #000000;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Chat body */
+.chat-body {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Chat footer */
+.chat-footer {
+    padding: 10px;
+    display: flex;
+    border-top: 1px solid #ddd;
+}
+
+.chat-footer input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-right: 8px;
+}
+
+.chat-footer button {
+    background: #0073e6;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.close-btn {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
