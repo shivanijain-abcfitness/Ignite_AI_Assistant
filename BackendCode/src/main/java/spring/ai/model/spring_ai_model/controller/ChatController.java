@@ -195,13 +195,14 @@ public class ChatController {
                     sessions.remove(sessionId);
 
                     // Call API asynchronously
-                    freezeMemberClient.submitFreeze(payload)
-                                      .doOnError(ex -> logger.error("Error calling transfer API", ex))
-                                      .subscribe();
+                    logger.info("Submitting freeze payload: {}", payload);
 
-                    // Return success message after 5 seconds
-                    return Mono.delay(Duration.ofSeconds(10))
-                               .map(ignore -> "🎉 Membership Freeze successful!");
+                    return freezeMemberClient.submitFreeze(payload)
+                                             .map(response -> "🎉 Membership Freeze successful!")
+                                             .onErrorResume(ex -> {
+                                                 logger.error("Error calling transfer API", ex);
+                                                 return Mono.just("❌ Membership freeze failed. Please try again.");
+                                             });
                 } else if (userInput.equalsIgnoreCase("no") || userInput.equalsIgnoreCase("n")) {
                     sessions.remove(sessionId);
                     return Mono.just("❌ Membership freeze cancelled.");
